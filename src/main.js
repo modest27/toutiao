@@ -8,6 +8,12 @@ import '@/style/index.less'
 import Vant from 'vant'
 import 'vant/lib/index.css'
 
+//加载处理时间dayjs包
+import '@/utils/dayjs.js'
+
+//加载动态设置rem基准值的文件
+import 'amfe-flexible'
+
 Vue.use(Vant)
 
 
